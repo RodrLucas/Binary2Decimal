@@ -22,9 +22,9 @@ export class Binary {
       });
       if (!isValid)
         return console.log(
-          `Número inserido ${input} é inválido, por favor insira apenas 1 e/ou 0`
+          `Input inserido: ${input} é inválido, por favor insira apenas 1 e/ou 0`
         );
-      console.log(`Número inserido ${input} é VÁLIDO`);
+      console.log(`Input inserido: ${input} é VÁLIDO`);
 
       acc.map((item) => (result += item));
       console.log(`O resultado da conversão é ${result}`);
