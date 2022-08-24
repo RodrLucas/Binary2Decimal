@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 8rem;
+    @extend .flex;
+
+    .container-inputs {
+        @extend .flex;
+
+        input {
+            border-radius: 15px;
+            border: 1px solid #333;
+            padding: 0.5rem;
+            outline: none;
+            @extend .text;
+        }
+    }
+}
